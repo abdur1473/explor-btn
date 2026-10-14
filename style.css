@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(28, 28, 28);
+}
+
+button{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(24, 23, 23);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    position: absolute;
+    overflow: hidden;
+    top: 50px;
+    left: 300px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: rgb(0, 56, 78);
+    border-radius:15px ;
+}
+
+.icon{
+    transition: 0.3s;
+}
+
+.icon .fa-solid{
+    position: absolute;
+    left: -45px;
+}
+
+button:hover .icon{
+   transform: translateX(20px);
+}
+
+button>span{
+    font-weight: 900;
+    font-size: 16px;
+    color: rgb(10, 10, 10);
+
+}
+
+.icon1{
+    transition: 0.3s;
+}
+
+button:hover .icon1{
+    transform: translateX(65px);
+}
